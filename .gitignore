@@ -1,0 +1,42 @@
+# Ignore executable files and object files
+*.exe
+*.out
+*.o
+
+# Ignore build directories
+/build/
+/bin/
+/Debug/
+/Release/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE files
+*.log
+*.idea/
+*.vscode/
+*.suo
+*.user
+*.cproj
+*.vcxproj
+*.vcxproj.filters
+
+# Ignore temporary files
+*.tmp
+*.temp
+
+# Ignore compiled C++ files
+*.gch
+
+# Ignore backup files
+*.bak
+*.swp
+*.swo
+
+# Ignore specific tools
+CMakeFiles/
+CMakeCache.txt
+Makefile
+cmake_install.cmake
